@@ -96,7 +96,7 @@ public class LoginScreen extends AppCompatActivity implements View.OnClickListen
   
 
             Intent accountsIntent = new Intent(activity, LeftSlideNavigation.class);
-            accountsIntent.putExtra("EMAIL", et_email.getText().toString().trim());
+           
             emptyInputEditText();
             startActivity(accountsIntent);
 
